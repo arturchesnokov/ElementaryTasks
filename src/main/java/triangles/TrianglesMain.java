@@ -1,13 +1,12 @@
 package triangles;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
+import java.util.Set;
 import java.util.TreeSet;
 
 import static triangles.TriangleService.parseStringtoArray;
-import static triangles.TriangleService.stringInCorrectFormat;
-import static triangles.TriangleService.valuesInCorrectTypes;
+import static triangles.TriangleService.correctStringFormat;
+import static triangles.TriangleService.valuesCorrectTypes;
 
 public class TrianglesMain {
 
@@ -18,12 +17,11 @@ public class TrianglesMain {
         while (true) {
             System.out.println("Please enter triangle in format:<Name>,<side №1>,<side №2>,<side №3>");
 
-            String str = scanner.nextLine().replaceAll("\\s+", "");
+            String str = scanner.nextLine();
             String[] params = parseStringtoArray(str);
 
-            if (stringInCorrectFormat(str) && valuesInCorrectTypes(str)) {
+            if (correctStringFormat(params) && valuesCorrectTypes(params)) {
                 try {
-
                     set.add(new Triangle(params[0],
                             Double.parseDouble(params[1]),
                             Double.parseDouble(params[2]),
@@ -31,7 +29,6 @@ public class TrianglesMain {
                 } catch (TriangleCantExist e) {
                     System.out.println(e.getMessage());
                 }
-
             } else {
                 continue;
             }
@@ -44,10 +41,15 @@ public class TrianglesMain {
             }
         }
 
+        printTriangles(set);
+
+    }
+
+    static void printTriangles(Set<Triangle> set) {
         System.out.println("=========Triangles list=========");
         for (Triangle triangle : set) {
             System.out.println(triangle);
         }
-
     }
+
 }

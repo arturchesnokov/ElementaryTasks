@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f40e64eb-5dc6-49e3-bfcf-0bf7c2d15f7a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElementaryTasks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/triangles/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/triangles/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/triangles/TriangleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/triangles/TriangleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/triangles/TrianglesMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/triangles/TrianglesMain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,31 +19,31 @@
     <session id="923080863">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2851" />
+          <entry key="java" value="3489" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2851" />
+          <entry key="JAVA" value="3489" />
         </counts>
       </usages-collector>
     </session>
@@ -51,11 +53,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/triangles/TrianglesMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="476">
+              <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#392#402#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,32 +65,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/triangles/TriangleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+            <state relative-caret-position="306">
+              <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
               <folding>
-                <element signature="e#959#960#0" expanded="true" />
-                <element signature="e#999#1000#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
+                <element signature="e#1042#1043#0" expanded="true" />
+                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#1133#1134#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/triangles/TriangleServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/triangles/Triangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+            <state relative-caret-position="1598">
+              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
               <folding>
-                <element signature="e#751#752#0" expanded="true" />
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
-                <element signature="e#860#861#0" expanded="true" />
-                <element signature="e#884#885#0" expanded="true" />
-                <element signature="e#912#913#0" expanded="true" />
-                <element signature="e#936#937#0" expanded="true" />
-                <element signature="e#1917#1918#0" expanded="true" />
-                <element signature="e#1940#1941#0" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+                <element signature="e#2595#2596#0" expanded="true" />
+                <element signature="e#2625#2626#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,6 +113,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="TestNG Test Class" />
       </list>
     </option>
   </component>
@@ -116,9 +129,10 @@
         <option value="$PROJECT_DIR$/src/main/java/chess/ChessMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/luckyTicket/Ticket.java" />
         <option value="$PROJECT_DIR$/src/main/java/luckyTicket/StackOfTickets.java" />
-        <option value="$PROJECT_DIR$/src/main/java/triangles/TriangleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/triangles/Triangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/triangles/TrianglesMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/triangles/TriangleService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/triangles/TriangleServiceTest.java" />
       </list>
     </option>
   </component>
@@ -129,9 +143,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1921" />
-    <option name="y" value="45" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-24" />
+    <option name="y" value="82" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -143,9 +157,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,11 +231,24 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540331898216" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540373727580" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="triangles" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -238,21 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TrianglesMain">
-    <configuration name="ChessMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chess.ChessMain" />
-      <module name="ElementaryTasks" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chess.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TriangleServiceTest">
     <configuration name="TrianglesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="triangles.TrianglesMain" />
       <module name="ElementaryTasks" />
@@ -279,16 +289,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChessServiceTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TriangleServiceTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ElementaryTasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chess.*" />
+          <option name="PATTERN" value="triangles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="chess" />
-      <option name="MAIN_CLASS_NAME" value="chess.ChessServiceTest" />
+      <option name="PACKAGE_NAME" value="triangles" />
+      <option name="MAIN_CLASS_NAME" value="triangles.TriangleServiceTest" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -296,16 +306,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnvelopeTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TriangleServiceTest.testParseStringtoArray" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ElementaryTasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="envelopes.*" />
+          <option name="PATTERN" value="triangles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="envelopes" />
-      <option name="MAIN_CLASS_NAME" value="envelopes.EnvelopeTest" />
+      <option name="PACKAGE_NAME" value="triangles" />
+      <option name="MAIN_CLASS_NAME" value="triangles.TriangleServiceTest" />
+      <option name="METHOD_NAME" value="testParseStringtoArray" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleServiceTest.testStringInCorrectFormat" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ElementaryTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="triangles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="triangles" />
+      <option name="MAIN_CLASS_NAME" value="triangles.TriangleServiceTest" />
+      <option name="METHOD_NAME" value="testStringInCorrectFormat" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleServiceTest.testStringIncorrectFormat" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ElementaryTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="triangles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="triangles" />
+      <option name="MAIN_CLASS_NAME" value="triangles.TriangleServiceTest" />
+      <option name="METHOD_NAME" value="testStringIncorrectFormat" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -322,17 +372,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ChessMain" />
-      <item itemvalue="TestNG.ChessServiceTest" />
-      <item itemvalue="TestNG.EnvelopeTest" />
       <item itemvalue="Application.TrianglesMain" />
+      <item itemvalue="TestNG.TriangleServiceTest" />
+      <item itemvalue="TestNG.TriangleServiceTest.testStringInCorrectFormat" />
+      <item itemvalue="TestNG.TriangleServiceTest.testParseStringtoArray" />
+      <item itemvalue="TestNG.TriangleServiceTest.testStringIncorrectFormat" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TriangleServiceTest" />
+        <item itemvalue="TestNG.TriangleServiceTest.testStringIncorrectFormat" />
+        <item itemvalue="TestNG.TriangleServiceTest.testParseStringtoArray" />
+        <item itemvalue="TestNG.TriangleServiceTest.testStringInCorrectFormat" />
         <item itemvalue="Application.TrianglesMain" />
-        <item itemvalue="TestNG.EnvelopeTest" />
-        <item itemvalue="TestNG.ChessServiceTest" />
-        <item itemvalue="Application.ChessMain" />
       </list>
     </recent_temporary>
   </component>
@@ -349,11 +401,43 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TriangleServiceTest - 2018.10.24 at 12h 15m 08s.xml">
+      <configuration name="TriangleServiceTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TriangleServiceTest - 2018.10.24 at 12h 18m 58s.xml">
+      <configuration name="TriangleServiceTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TriangleServiceTest - 2018.10.24 at 12h 20m 49s.xml">
+      <configuration name="TriangleServiceTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TriangleServiceTest - 2018.10.24 at 12h 21m 37s.xml">
+      <configuration name="TriangleServiceTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TriangleServiceTest - 2018.10.24 at 12h 25m 21s.xml">
+      <configuration name="TriangleServiceTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TriangleServiceTest_testStringInCorrectFormat - 2018.10.24 at 12h 26m 07s.xml">
+      <configuration name="TriangleServiceTest.testStringInCorrectFormat" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TriangleServiceTest - 2018.10.24 at 12h 27m 12s.xml">
+      <configuration name="TriangleServiceTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TriangleServiceTest - 2018.10.24 at 12h 27m 49s.xml">
+      <configuration name="TriangleServiceTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TriangleServiceTest_testParseStringtoArray - 2018.10.24 at 12h 28m 12s.xml">
+      <configuration name="TriangleServiceTest.testParseStringtoArray" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TriangleServiceTest - 2018.10.24 at 12h 28m 22s.xml">
+      <configuration name="TriangleServiceTest" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="1921" y="45" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -362,7 +446,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -370,7 +454,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32885906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -403,9 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -427,9 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -445,50 +523,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/triangles/TriangleService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/triangles/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+        <state relative-caret-position="1598">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
           <folding>
-            <element signature="e#959#960#0" expanded="true" />
-            <element signature="e#999#1000#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#2595#2596#0" expanded="true" />
+            <element signature="e#2625#2626#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/triangles/TrianglesMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="476">
+          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#392#402#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/triangles/Triangle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/triangles/TriangleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+        <state relative-caret-position="306">
+          <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
           <folding>
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#1917#1918#0" expanded="true" />
-            <element signature="e#1940#1941#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/triangles/TriangleServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
           </folding>
         </state>
       </provider>

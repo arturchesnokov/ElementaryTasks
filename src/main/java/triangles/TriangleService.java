@@ -2,8 +2,8 @@ package triangles;
 
 public class TriangleService {
 
-    static boolean stringInCorrectFormat(String inputString) {
-        int params = parseStringtoArray(inputString).length;
+    static boolean correctStringFormat(String[] parameters) {
+        int params = parameters.length;
         if (params != 4) {
             System.out.println("Please enter parameters in correct format\n");
             return false;
@@ -12,13 +12,12 @@ public class TriangleService {
         }
     }
 
-    static boolean valuesInCorrectTypes(String inputString) {
-        String[] params = parseStringtoArray(inputString);
-        String name = (String) params[0];
+    static boolean valuesCorrectTypes(String[] parameters) {
+        String name = (String) parameters[0];
         try {
-            double a = Double.parseDouble(params[1]);
-            double b = Double.parseDouble(params[2]);
-            double c = Double.parseDouble(params[3]);
+            double a = Double.parseDouble(parameters[1]);
+            double b = Double.parseDouble(parameters[2]);
+            double c = Double.parseDouble(parameters[3]);
             return true;
 
         } catch (NumberFormatException e) {
@@ -28,6 +27,10 @@ public class TriangleService {
     }
 
     static String[] parseStringtoArray(String string) {
-        return string.split(",");
+        return trim(string).split(",");
+    }
+
+    private static String trim (String string){
+        return string.replaceAll("\\s+", "");
     }
 }

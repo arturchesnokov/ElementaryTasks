@@ -13,9 +13,13 @@ public class Triangle implements Comparable<Triangle> {
     }
 
     public Triangle(String name, double a, double b, double c) throws TriangleCantExist {
+        initialize(a, b, c);
+        this.name = name;
+    }
+
+    private void initialize(double a, double b, double c) throws TriangleCantExist {
         if (a != 0 && b != 0 && c != 0) {
             if (triangleMayExist(a, b, c)) {
-                this.name = name;
                 this.a = a;
                 this.b = b;
                 this.c = c;
@@ -26,6 +30,28 @@ public class Triangle implements Comparable<Triangle> {
         } else {
             throw new TriangleCantExist("Size can't be 0");
         }
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setA(double a) throws TriangleCantExist {
+        double b = this.getB();
+        double c = this.getC();
+        initialize(a, b, c);
+    }
+
+    public void setB(double b) throws TriangleCantExist {
+        double a = this.getA();
+        double c = this.getC();
+        initialize(a, b, c);
+    }
+
+    public void setC(double c) throws TriangleCantExist {
+        double a = this.getA();
+        double b = this.getB();
+        initialize(a, b, c);
     }
 
     private double getSquare() {
@@ -73,11 +99,10 @@ public class Triangle implements Comparable<Triangle> {
             return 1;
         }
     }
-
 }
 
 class TriangleCantExist extends Exception {
-    public TriangleCantExist(String message){
+    public TriangleCantExist(String message) {
         super(message);
     }
 
