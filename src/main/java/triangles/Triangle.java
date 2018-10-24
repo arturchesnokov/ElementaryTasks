@@ -25,10 +25,10 @@ public class Triangle implements Comparable<Triangle> {
                 this.c = c;
                 this.square = Triangle.square(a, b, c);
             } else {
-                throw new TriangleCantExist("Wrong side size");
+                throw new TriangleCantExist("Wrong side size, Triangle hasn't been created");
             }
         } else {
-            throw new TriangleCantExist("Size can't be 0");
+            throw new TriangleCantExist("Size can't be 0, Triangle hasn't been created");
         }
     }
 

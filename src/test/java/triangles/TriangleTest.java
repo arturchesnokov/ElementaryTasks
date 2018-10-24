@@ -11,8 +11,8 @@ public class TriangleTest {
     Triangle triangle;
     final int ZERO = 0;
     final double INV = 33.3;
-    final String ZEROMESSAGE = "Size can't be 0";
-    final String WRONGSIDEMESSAGE = "Wrong side size";
+    final String ZEROMESSAGE = "Size can't be 0, Triangle hasn't been created";
+    final String WRONGSIDEMESSAGE = "Wrong side size, Triangle hasn't been created";
 
     @BeforeMethod
     public void setUp() throws TriangleCantExist {

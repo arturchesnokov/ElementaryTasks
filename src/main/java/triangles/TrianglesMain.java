@@ -4,21 +4,22 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
 
-import static triangles.TriangleService.parseStringtoArray;
 import static triangles.TriangleService.correctStringFormat;
+import static triangles.TriangleService.parseStringtoArray;
 import static triangles.TriangleService.valuesCorrectTypes;
+
 
 public class TrianglesMain {
 
     public static void main(String[] args) {
+        String welcomeMsg = "Please enter triangle in format:<Name>,<side №1>,<side №2>,<side №3>";
+        String repeatRequestMsg = "Do you want to proceed? \"y\" or \"yes\'";
         Scanner scanner = new Scanner(System.in);
         TreeSet<Triangle> set = new TreeSet<Triangle>();
 
         while (true) {
-            System.out.println("Please enter triangle in format:<Name>,<side №1>,<side №2>,<side №3>");
-
-            String str = scanner.nextLine();
-            String[] params = parseStringtoArray(str);
+            System.out.println(welcomeMsg);
+            String[] params = parseStringtoArray(scanner.nextLine());
 
             if (correctStringFormat(params) && valuesCorrectTypes(params)) {
                 try {
@@ -32,8 +33,8 @@ public class TrianglesMain {
             } else {
                 continue;
             }
-            System.out.println("Do you want to proceed? \"y\" or \"yes\'");
-            str = scanner.nextLine();
+            System.out.println(repeatRequestMsg);
+            String str = scanner.nextLine();
             if (str.toLowerCase().equals("y") || str.toLowerCase().equals("yes")) {
                 continue;
             } else {
@@ -42,7 +43,6 @@ public class TrianglesMain {
         }
 
         printTriangles(set);
-
     }
 
     static void printTriangles(Set<Triangle> set) {
