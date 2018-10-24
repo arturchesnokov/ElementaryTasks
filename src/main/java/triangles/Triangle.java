@@ -83,7 +83,7 @@ public class Triangle implements Comparable<Triangle> {
     }
 
     static private boolean triangleMayExist(double a, double b, double c) {
-        if (a + b > c && b + c > a && c + a > a) {
+        if (a + b > c && b + c > a && c + a > b) {
             return true;
         } else {
             return false;
